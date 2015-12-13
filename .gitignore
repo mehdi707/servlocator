@@ -8,5 +8,6 @@ CMa*
 build/*
 ServerLocator-build/*
 *.cpb
-.user
+*.user
+*~
 
