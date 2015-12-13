@@ -1,0 +1,12 @@
+*.txt
+CMa*
+*.h~
+*.cpp~
+*.H~
+*.CPP~
+*.config
+build/*
+ServerLocator-build/*
+*.cpb
+.user
+
