@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SeverLocator" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/cafe/project/ServerLocator2.0/SeverLocator" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SeverLocator">
+         <Option output="/cafe/project/ServerLocator2.0/SeverLocator/SeverLocator" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/cafe/project/ServerLocator2.0/SeverLocator" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/4.8/x86_64-suse-linux" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 SeverLocator" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SeverLocator/fast">
+         <Option output="/cafe/project/ServerLocator2.0/SeverLocator/SeverLocator" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/cafe/project/ServerLocator2.0/SeverLocator" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/c++/4.8/x86_64-suse-linux" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/../../../../x86_64-suse-linux/include" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include" />
+            <Add directory="/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 SeverLocator/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/cafe/project/ServerLocator2.0/SeverLocator" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/cafe/project/ServerLocator2.0/SeverLocator/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/DataBase.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/OS.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/Programming.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHCPanel.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHGroup.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHLocation.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHMainOption.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHPlane.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHTechnicalOption.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WebServer.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/main.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/whpricingoption.cpp">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/DataBase.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/OS.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/Programming.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHCPanel.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHGroup.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHLocation.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHMainOption.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHPlane.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WHTechnicalOption.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/WebServer.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/whpricingoption.h">
+      </Unit>
+      <Unit filename="/cafe/project/ServerLocator2.0/SeverLocator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SeverLocator" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/cafe/Project/ServerLocator/ServerLocator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SeverLocator">
+         <Option output="/cafe/Project/ServerLocator/ServerLocator-build/SeverLocator" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/cafe/Project/ServerLocator/ServerLocator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 SeverLocator" />
+            <CompileFile command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SeverLocator/fast">
+         <Option output="/cafe/Project/ServerLocator/ServerLocator-build/SeverLocator" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/cafe/Project/ServerLocator/ServerLocator-build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 SeverLocator/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/cafe/Project/ServerLocator/ServerLocator-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/cafe/Project/ServerLocator/ServerLocator-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/cafe/Project/ServerLocator/Contact.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/DataBase.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Group.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/IP.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/IPInvalidError.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Location.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/OS.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Plane.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Programming.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Server.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Tag.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHCPanel.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHGroup.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHMainOption.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHPlane.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHTechnicalOption.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WebServer.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/main.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/whpricingoption.cpp">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Contact.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/DataBase.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Group.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/IP.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/IPInvalidError.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Location.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/OS.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Plane.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Programming.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Server.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/Tag.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHCPanel.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHGroup.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHMainOption.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHPlane.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WHTechnicalOption.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/WebServer.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/whpricingoption.h">
+      </Unit>
+      <Unit filename="/cafe/Project/ServerLocator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
